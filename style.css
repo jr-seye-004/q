@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-family: roboto;
+}
+h1{
+    text-align: center;
+}
+.ecran{
+    background-color: beige;
+    height: 80px;
+    margin: 10px;
+    border-radius: 15px;
+} 
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: rgb(16, 162, 219);
+    letter-spacing: 0.1rem;
+
+}
+ul li a:hover{
+    color: rgb(34, 211, 11);
+    text-decoration: underline;
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.a{
+    padding: 35px;
+    text-align: right;
+}
+input[type="search"]{
+    font-size: 20px;
+}
